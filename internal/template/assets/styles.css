@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    font-family: Arial, serif;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #202020;
+}
+
+.home-container {
+    display: flex;
+    margin-right: auto;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-button {
+    border: 3px #4c0569;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: #4c0569;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.home-button:hover {
+    background-color: #fff;
+    color: #993ece;
+    border-color: #993ece;
+}
+
+.profile-logout-button-container {
+    margin-left: auto;
+}
+
+.logout-button {
+    border: 3px #902020;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: #902020;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.logout-button:hover {
+    background-color: #fff;
+    color: #de184d;
+    border-color: #de184d;
+}
+
+.profile-button {
+    border: 3px #0d2e9b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: #0d2e9b;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.profile-button:hover {
+    background-color: #fff;
+    color: #2d66de;
+    border-color: #2d66de;
+}
+
+.sign-up-auth-button-container {
+    margin-left: auto;
+}
+
+.sign-up-auth-button {
+    border: 3px #407050;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: #407050;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sign-up-auth-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.text-h {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-d {
+    font-size: 16px;
+}
+
+
+.sign-up-auth-button:hover {
+    background-color: #fff;
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+main {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    margin-top: 15px;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.form-btn {
+    border: 3px #407050;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: #407050;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-btn:hover {
+    background-color: #fff;
+    color: darkgreen;
+    border-color: darkgreen;
+}

@@ -1,0 +1,28 @@
+{{ define "header" }}
+<html lang="EN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/internal/template/assets/styles.css" />
+    <script src="/internal/template/assets/index.js"></script>
+    <title>Simple-forum</title>
+</head>
+<body>
+<header>
+    <div class="home-container">
+        <button onclick="window.location.href = '/'" class="home-button">Home</button>
+    </div>
+    {{ if eq .Status "True" }}
+            <div class="profile-logout-button-container">
+                <button onclick="window.location.href = '/profile'" class="profile-button">{{ .User.Login }}</button>
+                <button onclick="window.location.href = '/logout'" class="logout-button">Logout</button>
+            </div>
+    {{ else }}
+        <div class="sign-up-auth-button-container">
+            <button onclick="window.location.href = '/auth'" class="sign-up-auth-button">Login</button>
+            <button onclick="window.location.href = '/signup'" class="sign-up-auth-button">Sign up</button>
+        </div>
+    {{ end }}
+</header>
+
+{{ end }}

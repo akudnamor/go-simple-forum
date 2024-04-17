@@ -1,0 +1,18 @@
+{{ define "auth" }}
+    {{ template "header" . }}
+<main>
+    <div class="sign-up-auth-container">
+        <span class="text-h">Auth form</span>
+        <span class="text-d">Unsafe demo-auth</span>
+
+        <form class="sign-up-auth" action="/auth" method="post">
+            <input class="form-input" autocomplete="off" placeholder="login" type="text" name="login"/>
+            <input class="form-input" autocomplete="off" placeholder="password" type="text" name="password"/>
+            <input class="form-btn" type="submit"/>
+        </form>
+    </div>
+
+</main>
+</body>
+</html>
+{{ end }}
